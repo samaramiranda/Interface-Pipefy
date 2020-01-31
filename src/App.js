@@ -17,6 +17,6 @@ function App() {
     <GlobalStyle></GlobalStyle>
     </DndProvider>
   );
-}
+};
 
 export default App;

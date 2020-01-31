@@ -28,7 +28,7 @@ export default function Card( {data, index, listIndex} ) { /*pegando os dados do
     
       if (draggedIndex === targetIndex && draggedListIndex === targetListIndex){
         return; //se o usuário está arrastando o card para cima dele mesmo não faz nada
-      }
+      };
 
       const targetSize = ref.current.getBoundingClientRect(); //retornando o tamanho do elemento
       const targetCenter = (targetSize.bottom - targetSize.top) /2; //calculando o ponto central do card
@@ -39,21 +39,21 @@ export default function Card( {data, index, listIndex} ) { /*pegando os dados do
       //se o item que estou arrastando veio antes do item que recebeu o arraste em cima, e a posição do dragget for menor que o centro do card
       if (draggedIndex < targetIndex && draggedTop < targetCenter) {
         return;
-      } 
+      };
 
       //se o item que estou arrastando veio depois do item que recebeu o arraste em cima, e a posição do dragget for maior que o centro do card
       if (draggedIndex > targetIndex && draggedTop > targetCenter) {
         return;
-      } 
+      };
 
       move(draggedListIndex, targetListIndex, draggedIndex, targetIndex);
     
       item.index = targetIndex; //mudando o index do item que foi movido
       item.listIndex = targetListIndex; //mudando o index da lista para onde o item foi arrastado
     }
-  })
+  });
 
-  dragRef(dropRef(ref))
+  dragRef(dropRef(ref));
   
   return (
     <Container ref={ref} isDragging={isDragging}> {/*dragRef é a referencia que preciso passar no elemento que quero que seja arrastado*/}
@@ -64,4 +64,4 @@ export default function Card( {data, index, listIndex} ) { /*pegando os dados do
       { data.user && <img src={data.user} alt=""></img>} {/*imagem do avatar*/}
     </Container>
   );
-}
+};

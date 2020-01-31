@@ -14,19 +14,19 @@ export const Container = styled.div`
     position: absolute;
     top: -22px;
     left: 15px;
-  }
+  };
 
   p {
     font-weight: 500;
     line-height: 20px;
-  }
+  };
 
   img {
     width: 24px;
     height: 24px;
     border-radius: 5px;
     margin-top: 5px;
-  }
+  };
 
   ${props => props.isDragging && css` /*pegando a propriedade e verificando se o item está sendo arrastado*/
     border: 2px dashed rgba(0, 0, 0, 0.2);
@@ -38,10 +38,8 @@ export const Container = styled.div`
 
     p, img, header {
       opacity: 0;
-    }
-  `}
-
-
+    };
+  `};
 `;
 
 //exportando a constante label
