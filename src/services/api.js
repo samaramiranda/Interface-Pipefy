@@ -8,31 +8,31 @@ export function loadLists() {
           id: 1,
           content: 'Estudar módulo 01 de NodeJS',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 2,
-          content: 'Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy',
+          content: 'Desenvolver o clone da interface do Pipefy',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 3,
           content: 'Estudar módulo 03 de React Native',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 4,
-          content: 'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
+          content: 'Estuda objetos e arrays em Javascript',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 5,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Estudar deploy em ReactJS',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
       ]
     },
@@ -44,7 +44,7 @@ export function loadLists() {
           id: 6,
           content: 'Recriando clone do Pipefy',
           labels: [],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         }
       ]
     },
@@ -54,19 +54,19 @@ export function loadLists() {
       cards: [
         {
           id: 7,
-          content: 'Gravar sobre Geolocalização e mapas com React Native',
+          content: 'Assistir curso sobre Axios no Youtube',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 8,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Responder os comentários do Linkedin',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+          user: 'https://formiguinhadocaria.com.br/admin/assets/avatars/profile-pic.jpg'
         },
         {
           id: 9,
-          content: 'Ajustes na biblioteca unform',
+          content: 'Concluir o curso de UI',
           labels: [],
         }
       ]
@@ -78,17 +78,17 @@ export function loadLists() {
       cards: [
         {
           id: 10,
-          content: 'Gravar aula sobre deploy e CI com React Native',
+          content: 'Realizar os desafios propostos no trabalho',
           labels: [],
         },
         {
           id: 12,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Criar aplicativo de cálculo de IMC',
           labels: ['#54e1f7'],
         },
         {
           id: 13,
-          content: 'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+          content: 'Assistir vídeos sobre novas tecnologias',
           labels: ['#7159c1'],
         }
       ]
